@@ -1,46 +1,24 @@
-/* 1. Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 2. Body styling */
-body {
-  font-family: Arial, sans-serif;  /* Sets clean font */
-  background-color: #f4f4f9;       /* Light grey background */
-  color: #333;                     /* Dark grey text */
-  line-height: 1.6;                /* Increases readability */
-  padding: 20px;
-}
-
-/* 3. Headings */
-h1 {
-  font-size: 2.5rem;        /* Large text size */
-  color: #2c3e50;           /* Dark blue heading */
-  text-align: center;       /* Centered text */
-  margin-bottom: 20px;      /* Space after heading */
-}
-
-/* 4. Paragraph */
-p {
-  font-size: 1.1rem;
-  margin-bottom: 15px;
-  text-align: justify;      /* Even alignment for clean look */
-}
-
-/* 5. Button styling */
-button {
-  background-color: #3498db;   /* Blue background */
-  color: white;               /* White text */
-  padding: 10px 20px;
-  border: none;               /* Removes default border */
-  border-radius: 8px;         /* Rounded corners */
-  cursor: pointer;            /* Hand cursor */
-  font-size: 1rem;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
-}
-
-button:hover {
-  background-color: #2980b9;  /* Darker blue on hover */
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Example</title>
+  <style>
+    body {
+      background-color: #f4f4f9;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: darkblue;
+      text-align: center;
+    }
+    p {
+      color: #333;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Styled Page</h1>
+  <p>This paragraph is styled with CSS.</p>
+</body>
+</html>
